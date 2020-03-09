@@ -13,7 +13,11 @@ class Author
   end 
   
   def add_post(post)
+<<<<<<< HEAD
     post.author = self 
+=======
+    @post.push(post) 
+>>>>>>> 19058bbacc024d29bd3f1912ab8198c02e37a9db
   end 
   
   def posts 
